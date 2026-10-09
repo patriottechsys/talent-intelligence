@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 
 class ClaudeClient:
-    DEFAULT_MODEL = "claude-sonnet-4-20250514"
+    DEFAULT_MODEL = "claude-sonnet-5-5"
     MAX_TOKENS = 4096
 
     def __init__(self, api_key: Optional[str] = None):
